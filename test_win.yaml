@@ -1,4 +1,4 @@
-- hosts: windowsboxes
+- hosts: 192.168.200.30
 
   tasks:
    - name: run an executable using win_command
