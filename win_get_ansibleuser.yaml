@@ -1,0 +1,8 @@
+- hosts: 192.168.200.30
+  gather_facts: true
+  
+  tasks:
+  - name: "What's my name again?"
+    debug:
+       msg: '{{ ansible_user }}'
+    become: yes
